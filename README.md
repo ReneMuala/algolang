@@ -158,6 +158,21 @@ enquanto i < 11 repetir
 fim
 ```
 
+# Compilando AlgoLang!
+
+Para compilar o binário do AlgoLang, certifique-se de instalar as seguintes ferramentas:
+
+- gcc
+- Clang
+- Cmake
+- Make
+- Bison
+- Flex
+
+Após a instalação, execute make -f build.mak no diretório raiz para compilar lijbit e AlgoLang.
+
+Ao final da compilação, você poderá encontrar o binário algo na pasta build.
+
 # Tecnologias
 
 Componentes do compilador Algo
