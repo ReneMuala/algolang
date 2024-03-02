@@ -165,5 +165,5 @@ Componentes do compilador Algo
 
 | Componente | Uso | Repo? |
 | --- | --- | --- |
-| ILC | Frontend: Analise lexica, sintatica e sematica |  |
-| libjit | Backend: Geração e optimização de código de máquina |  |
+| ILC | Frontend: Analise lexica, sintatica e sematica | https://github.com/ReneMuala/ilc |
+| libjit | Backend: Geração e optimização de código de máquina | https://github.com/ademakov/libjit |
