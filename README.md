@@ -1,9 +1,8 @@
 # AlgoLang
 
-AlgoLang ou simplesmente Algo é uma linguagem de programação de alto nível, com com tipagem estatica e forte, projetada para ser pioneira no campo de ensino e experimentação de algoritmos.
+AlgoLang ou simplesmente Algo é uma linguagem de programação de alto nível, com tipagem estática e forte, projetada para ser pioneira no campo de ensino e experimentação de algoritmos.
 
-> Algo é um dialeto de portugol que pode ser facilmente traduzido para outras linguas, veja a sessão de Técnologias.
-> 
+> Algo é um dialeto de Portugol que pode ser facilmente traduzido para outras línguas, veja a seção de Tecnologias.
 
 # Funcionalidades
 
@@ -17,7 +16,7 @@ AlgoLang ou simplesmente Algo é uma linguagem de programação de alto nível, 
 
 ## Estrutura básica
 
-Programas algo devem estar dentro de um bloco iniciado pela palavra chave `inicio` e terminado pela palavra chave `fim` .
+Programas algo devem estar dentro de um bloco iniciado pela palavra-chave `inicio` e terminado pela palavra-chave `fim`.
 
 ```python
 inicio
@@ -32,17 +31,17 @@ Existem 19 palavras reservadas:
 ```
 numero, booleano, texto, var, inicio,
 escrever, ler, fim, se, senao, e, ou
-entao, verdade,falso, para, repetir, 
+entao, verdade, falso, para, repetir, 
 ate, enquanto
 ```
 
-## Variaveis
+## Variáveis
 
 | Tipo | Valores (exemplos) |
 | --- | --- |
-| booleano | verdade , falso |
-| numero | 1, -0.5 , … |
-| texto | ”Ola mundo” , … |
+| booleano | verdade, falso |
+| numero | 1, -0.5, … |
+| texto | "Ola mundo", … |
 
 Sintaxe:
 
@@ -56,7 +55,7 @@ Exemplos:
 inicio
 	var nome texto
 	var versao numero
-	var condcao booleano
+	var condicao booleano
 	nome = "AlgoLang"
 	versao = 1.0
 	condicao = verdade
@@ -65,15 +64,15 @@ fim
 
 ## Operadores
 
-| Precendencia | Operadores |
+| Precedência | Operadores |
 | --- | --- |
-| Primeira | Operadores unarios |
-| Segunda | *,/ |
+| Primeira | Operadores unários |
+| Segunda | *, / |
 | Terceira | + |
-| Quarta | -  |
-| Quinta | < , ≤ , ≥ , >  |
-| Sexta  | == , ≠  |
-| Setima | e |
+| Quarta | - |
+| Quinta | < , ≤ , ≥ , > |
+| Sexta | == , ≠ |
+| Sétima | e |
 | Oitava | ou |
 
 ## Se e senao
@@ -113,13 +112,13 @@ fim
 Sintaxe:
 
 ```python
-para <nome de var.> = <val. inicial> ate <val. limit> repetir
+para <nome de var.> = <val. inicial> ate <val. limite> repetir
 	<instrucoes>
 fim
 
 # ou 
 
-para <nome de var.> = <val. inicial> ate <val. limit>, <incr/decr> repetir
+para <nome de var.> = <val. inicial> ate <val. limite>, <incr/decr> repetir
 	<instrucoes>
 fim
 ```
@@ -165,5 +164,5 @@ Componentes do compilador Algo
 
 | Componente | Uso | Repo? |
 | --- | --- | --- |
-| ILC | Frontend: Analise lexica, sintatica e sematica | https://github.com/ReneMuala/ilc |
-| libjit | Backend: Geração e optimização de código de máquina | https://github.com/ademakov/libjit |
+| ILC | Frontend: Análise léxica, sintática e semântica | [github](https://github.com/ReneMuala/ilc) |
+| libjit | Backend: Geração e otimização de código de máquina | [github](https://github.com/ademakov/libjit) |
