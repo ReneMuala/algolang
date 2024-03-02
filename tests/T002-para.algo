@@ -1,0 +1,19 @@
+inicio
+    var resultado, resultado2, esperado numero
+    resultado = 0
+    resultado2 = 0
+    esperado = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+    para i = 1 ate 11 repetir
+        resultado = resultado + i
+    fim
+
+    para i = 10 ate 0, -1 repetir
+        resultado2 = resultado2 + i
+    fim
+
+    se (resultado == esperado) e (resultado2 == esperado) entao
+        escrever "teste-para [PASSOU]\n"
+    senao
+        escrever "teste-para [FALHOU]\n"
+    fim
+fim

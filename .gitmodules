@@ -1,0 +1,3 @@
+[submodule "deps/libjit"]
+	path = deps/libjit
+	url = https://github.com/ademakov/libjit

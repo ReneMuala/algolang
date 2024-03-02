@@ -1,0 +1,10 @@
+inicio
+    var resultado, esperado numero
+    resultado = 1 - 2 + 3 * 4 / 5 - 6 * 7 / 8 - 9 * 10
+    esperado = -93.85
+    se resultado == esperado entao
+        escrever "teste-matematica [PASSOU]\n"
+    senao
+        escrever "teste-matematica [FALHOU]\n"
+    fim
+fim

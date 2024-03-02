@@ -1,0 +1,9 @@
+inicio
+    # deve ser verdade 
+    se 1 == 1 e "um" == "um" e verdade == verdade entao
+        escrever "teste-se [PASSOU]\n"
+    senao
+        escrever "teste-se [FALHOU]\n"
+    fim
+fim
+

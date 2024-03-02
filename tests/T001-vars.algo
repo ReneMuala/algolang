@@ -1,0 +1,15 @@
+inicio
+    var a texto
+    var b numero
+    var c booleano
+
+    a = "ABC"
+    b = 1
+    c = verdade
+
+    se (a == "ABC") e (b == 1) e (c == verdade) entao
+        escrever "teste-var [PASSOU]\n"
+    senao
+        escrever "teste-var [FALHOU]\n"
+    fim
+fim

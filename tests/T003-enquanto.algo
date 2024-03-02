@@ -1,0 +1,16 @@
+inicio
+    var resultado, esperado, i numero
+    resultado = 0
+    esperado = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+    i = 1
+    enquanto i < 11 repetir
+        resultado = resultado + i
+        i = i + 1
+    fim
+
+    se resultado == esperado entao
+        escrever "teste-enquanto [PASSOU]\n"
+    senao
+        escrever "teste-enquanto [FALHOU]\n"
+    fim
+fim
