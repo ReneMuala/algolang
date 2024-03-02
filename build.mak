@@ -1,6 +1,6 @@
 #! /usr/bin/make -f
 
-all: compile_libjit alert build_algolang
+all: compile_libjit alert compile_algolang
 
 project=AlgoLang
 

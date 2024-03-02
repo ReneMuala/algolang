@@ -169,7 +169,12 @@ Para compilar o binário do AlgoLang, certifique-se de instalar as seguintes fer
 - Bison
 - Flex
 
-Após a instalação, execute make -f build.mak no diretório raiz para compilar lijbit e AlgoLang.
+Após a instalação, clone o respositorio usando:
+```
+git clone https://github.com/renemuala/algolang
+git submodule update --init
+```
+execute `make -f build.mak` no diretório raiz para compilar lijbit e AlgoLang.
 
 Ao final da compilação, você poderá encontrar o binário algo na pasta build.
 

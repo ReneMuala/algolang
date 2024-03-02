@@ -1,6 +1,6 @@
 #! /usr/bin/make -f
 
-all: alert build_libjit
+all: alert compile_libjit
 
 project=AlgoLang
 
@@ -11,7 +11,7 @@ alert:
 compile_libjit: configure_libjit build_libjit
 
 configure_libjit:
-	cd deps/libjit && ./configure
+	cd deps/libjit && ./bootstrap && ./configure
 
 build_libjit:
 	cd deps/libjit && make
